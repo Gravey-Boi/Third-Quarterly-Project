@@ -1,0 +1,165 @@
+﻿body {
+    background-color: rgb(245 245 245);
+    color: dimgray;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0px;
+}
+
+hr {
+    border-top: 1px;
+    border-bottom: 0px;
+    border-color: rgb(238 238 238);
+    border-style: solid;
+    margin: 0px;
+}
+
+body div {
+    background-color: white;
+}
+
+#headerWrapper {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    padding: 40px 40px 20px;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+header {
+    margin-left: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-wrap: none;
+}
+
+header h1 {
+    font-size: 36px;
+    letter-spacing: 8px;
+    color: rgb(128 0 0);
+}
+
+header h2 {
+    font-size: 24px;
+    letter-spacing: 4px;
+    color: rgb(170 0 0);
+}
+
+#navContainer {
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    background-color: inherit;
+    color: dimgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+    text-wrap: none;
+    flex-wrap: wrap;
+}
+
+nav a {
+    padding: 12px 10px;
+    transition-duration: 0.3s;
+    transition-property: background-color, color;
+    cursor: pointer;
+    color: dimgray
+}
+
+nav a:hover, nav a:visited, nav a:link {
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(170 0 0);
+    color: white;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 40px;
+}
+
+footer h5 {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+#contentWrapper {
+    min-height: 620px;
+    width: 60%;
+    padding: 80px 40px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(238 238 238);
+}
+
+#contentWrapper h2 {
+    align-self: flex-start;
+    margin: 40px 0px;
+    color: rgb(170 0 0);
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+#contentWrapper h2:first-child {
+    margin-top: 0px;
+}
+
+#contentWrapper hr {
+    margin-top: 40px;
+}
+
+#contentWrapper p {
+    text-indent: 60px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+#contentWrapper ul {
+    padding-left: 60px;
+}
+
+#contentWrapper ul li {
+    margin-bottom: 1em;
+}
+
+#contentWrapper ul li p {
+    text-indent: 0px;
+}
+
+@media (max-width: 900px) {
+    #headerWrapper {
+        display: none;
+    }
+}
