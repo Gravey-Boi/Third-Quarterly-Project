@@ -157,6 +157,10 @@ footer h5 {
     margin-top: 0px;
 }
 
+#contentWrapper h3:last-child {
+    margin-bottom: 0px;
+}
+
 #contentWrapper hr {
     margin-top: 40px;
 }
