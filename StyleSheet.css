@@ -179,6 +179,7 @@ footer h5 {
 
 #contentWrapper ul {
     padding-left: 60px;
+    list-style: disc;
 }
 
 #contentWrapper ul li {
@@ -187,6 +188,18 @@ footer h5 {
 
 #contentWrapper ul li p {
     text-indent: 0px;
+}
+
+#contentWrapper ol {
+    padding-left: 60px;
+    list-style: decimal;
+}
+
+#contentWrapper ol li {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    margin-bottom: 1em;
 }
 
 #contentWrapper table, #contentWrapper th, #contentWrapper td {
