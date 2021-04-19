@@ -90,7 +90,7 @@ nav a {
     text-align: center;
 }
 
-nav a:hover, nav a:visited, nav a:link {
+nav a:visited, nav a:link {
     text-decoration: none;
 }
 
@@ -135,6 +135,19 @@ footer h5 {
     margin-top: 0px;
 }
 
+#contentWrapper h3 {
+    align-self: flex-start;
+    margin: 40px 0px 20px;
+    color: rgb(170 0 0);
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+#contentWrapper h3:first-of-type {
+    margin-top: 0px;
+}
+
 #contentWrapper hr {
     margin-top: 40px;
 }
@@ -145,6 +158,15 @@ footer h5 {
     letter-spacing: 2px;
     line-height: 24px;
     text-align: justify;
+}
+
+#contentWrapper a:link, a:visited {
+    text-decoration: none;
+    color: rgb(170 0 0);
+}
+
+#contentWrapper a:hover {
+    text-decoration: underline;
 }
 
 #contentWrapper ul {
