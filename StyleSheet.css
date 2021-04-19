@@ -36,6 +36,14 @@ body div {
     width: 100px;
 }
 
+.fullWidth {
+    width: 100%;
+}
+
+.halfWidth {
+    width: 50%;
+}
+
 header {
     margin-left: 20px;
     height: 100%;
@@ -192,7 +200,6 @@ footer h5 {
 
 #contentWrapper table {
     align-self: flex-start;
-    width: 50%;
 }
 
 #contentWrapper th {
