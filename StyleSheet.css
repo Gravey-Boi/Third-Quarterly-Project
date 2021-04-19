@@ -156,7 +156,6 @@ footer h5 {
 #contentWrapper p {
     text-indent: 60px;
     font-size: 16px;
-    letter-spacing: 2px;
     line-height: 24px;
     text-align: justify;
 }
@@ -180,6 +179,29 @@ footer h5 {
 
 #contentWrapper ul li p {
     text-indent: 0px;
+}
+
+#contentWrapper table, #contentWrapper th, #contentWrapper td {
+    border: 1px solid rgb(238 238 238);
+    border-collapse: collapse;
+}
+
+#contentWrapper th, #contentWrapper td {
+    padding: 6px;
+}
+
+#contentWrapper table {
+    align-self: flex-start;
+    width: 50%;
+}
+
+#contentWrapper th {
+    color: rgb(170 0 0);
+    font-weight: 500;
+}
+
+#contentWrapper td {
+
 }
 
 @media (max-width: 900px) {
@@ -208,5 +230,9 @@ footer h5 {
         margin-bottom: 20px;
         padding-left: 10px;
         padding-right: 10px;
+    }
+
+    #contentWrapper table {
+        width: 100%;
     }
 }
