@@ -178,4 +178,12 @@ footer h5 {
         padding-left: 0px;
         padding-right: 0px;
     }
+
+    #contentWrapper {
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
