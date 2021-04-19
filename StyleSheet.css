@@ -86,12 +86,13 @@ nav a {
     transition-duration: 0.3s;
     transition-property: background-color, color;
     cursor: pointer;
-    color: dimgray;
+    color: inherit;
     text-align: center;
 }
 
 nav a:visited, nav a:link {
     text-decoration: none;
+    color: inherit;
 }
 
 nav a:hover {
