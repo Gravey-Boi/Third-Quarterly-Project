@@ -19,18 +19,6 @@ hr {
     margin: 0px;
 }
 
-body div {
-    background-color: white;
-}
-
-#headerWrapper {
-    display: flex;
-    flex-direction: row;
-    height: 100px;
-    padding: 40px 40px 20px;
-    justify-content: space-between;
-}
-
 .logo {
     height: 100px;
     width: 100px;
@@ -42,6 +30,18 @@ body div {
 
 .halfWidth {
     width: 50%;
+}
+
+body div {
+    background-color: white;
+}
+
+#headerWrapper {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    padding: 40px 40px 20px;
+    justify-content: space-between;
 }
 
 header {
