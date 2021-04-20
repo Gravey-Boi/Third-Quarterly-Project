@@ -210,6 +210,14 @@ footer h5 {
     border-collapse: collapse;
 }
 
+#contentWrapper tr {
+    transition: 0.2s background-color;
+}
+
+#contentWrapper tr:hover {
+    background-color: rgb(238 238 238);
+}
+
 #contentWrapper th, #contentWrapper td {
     padding: 6px;
 }
